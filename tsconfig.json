@@ -1,0 +1,14 @@
+{
+  "compilerOptions": {
+    "forceConsistentCasingInFileNames":true,
+    "target": "es5",
+    "lib": ["es5", "dom"],
+    "types": ["cypress", "cypress-file-upload", "@cypress/grep","node"],
+    "resolveJsonModule": true,
+    "esModuleInterop": true
+  },
+  "include": [
+    "**/*.ts",
+    "../node_modules/cypress-file-upload/types/index.d.ts"
+  ]
+}
