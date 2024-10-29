@@ -1,5 +1,5 @@
 # Cypress-Based Enterprise Testing Framework
-his testing framework is built on Cypress, designed to allow efficient and rapid test creation. The goal is to leverage Cypress as a foundational layer for interacting with the web UI, on top of which a structured, fluent API has been developed. This approach enables quick onboarding and minimizes the learning curve, empowering less specialized team members, like manual testers, to create and maintain tests. Meanwhile, highly skilled resources, such as developers and automation engineers, can focus on designing Accessor and Page components and building essential tools for test creators.
+This testing framework is built on Cypress, designed to allow efficient and rapid test creation. The goal is to leverage Cypress as a foundational layer for interacting with the web UI, on top of which a structured, fluent API has been developed. This approach enables quick onboarding and minimizes the learning curve, empowering less specialized team members, like manual testers, to create and maintain tests. Meanwhile, highly skilled resources, such as developers and automation engineers, can focus on designing Accessor and Page components and building essential tools for test creators.
 
 ## Key Features
 ### Fluent API for Test Creation
