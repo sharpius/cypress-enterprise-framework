@@ -4,7 +4,7 @@ export class InputboxAccessor extends UserInputAccessor {
     public errorSelector =  "mat-error";
 
     public override click(): Cypress.Chainable {
-        return super.getElement().find("input").click();
+        return this.getElement().find("input").click();
     }
 
     public fill(text: string): this {

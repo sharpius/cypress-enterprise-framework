@@ -9,7 +9,7 @@ export class FileUploadAccessor extends Accessor {
     public fileNameSelector = "div.fx-column > span:first-child";
 
     public uploadFile(fileToUpload: string): Cypress.Chainable {
-        return super.getElement()
+        return this.getElement()
             .find('input[type="file"]')
             .invoke('show')
             .attachFile(`upload-files/${fileToUpload}`)
@@ -17,12 +17,12 @@ export class FileUploadAccessor extends Accessor {
     }
 
     public getError(): Cypress.Chainable {
-        return super.getElement()
+        return this.getElement()
             .find(this.errorSelector)
     }
 
     public getFileList(): Cypress.Chainable {
-        return super.getElement()
+        return this.getElement()
             .then(($element) => {
                 if ($element.find(this.fileListSelector).length) {
                     return cy.wrap($element).find(this.fileListSelector).find(this.fileRowSelector);
