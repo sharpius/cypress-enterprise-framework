@@ -3,7 +3,7 @@ import {IQuery} from "../IQuery";
 export const ExampleDatabaseSqlQueries = {
     selectCustomer: (customerNumber: string): IQuery => ({
         query: `SELECT
-                FROM customers
+                FROM customer
                 WHERE customerNumber = ?`,
         parameters: [customerNumber]
     })

@@ -3,11 +3,11 @@ import {CheckboxAccessor} from "./user-input/CheckboxAccessor";
 import {DropdownAccessor} from "./user-input/DropdownAccessor";
 import {InputboxAccessor} from "./user-input/InputboxAccessor";
 import {SelectboxAccessor} from "./user-input/SelectboxAccessor";
-import {IForm} from "./interfaces/IForm";
+import {IForm} from "./interface/IForm";
 import {Accessor} from "./Accessor";
 import {LabelAccessor} from "./LabelAccessor";
 import {TableAccessor} from "./TableAccessor";
-import {IFormItem} from "./interfaces/IFormItem";
+import {IFormItem} from "./interface/IFormItem";
 
 export class FormAccessor extends Accessor {
 
